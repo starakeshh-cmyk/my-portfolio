@@ -1,0 +1,118 @@
+header{
+    background-color: #2196f3;
+    color:white;
+  height:100vh;
+  cursor:pointer
+}
+body{
+ 
+    margin:0;
+   
+}
+h2{
+    text-align:center;
+}
+h1{
+    text-align:center;
+    font-color:#2196f3;
+}
+*{
+    font-family: "palatino Linotype","Book Antiqua";
+}
+.button{
+    height:40px;
+    width:130px;
+    border:none;
+    border-radius:20px;
+}
+.button:hover{
+background-color:blue;
+color:white;
+}
+header h1{
+    margin:0;
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+border:50%;
+    width:940;
+}
+section{
+    margin-bottom:20px;
+    height:100vh;
+    border:1px solid grey;
+    padding:20px;
+    border-radius: 20px;
+}
+#skills{
+    text-align:center;
+}
+#skills ol{
+    text-align:center;
+    display:inline-block;
+
+
+}
+#contact{
+    text-align: center;
+}
+
+#contact input{
+    padding: 8px;
+    margin: 5px;
+}
+
+#contact button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+}
+.submit.button{
+    background-color:blue;
+    cursor:pointer;
+
+}
+
+#main{
+    padding:265px;
+    text-align:center;
+    cursor:pointer;
+    text-align:center;
+    align-items:center;
+}
+input{
+    border-color: 1px solid lightgrey;
+    
+}
+.name:hover{
+    border:2px solid #2196f3;
+}
+footer {
+    height: 110px;
+    background-color: black;
+    color: lightgray;
+}
+.fixedbutton{
+background-color: #2196f3;
+color:white;
+height:40px;
+width:50px;
+border-radius: 10px;
+
+}
+.social-icons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+   
+}
+.social-icons a{
+    color:gray;
+    font-size:30px;
+}
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Rakesh Portfolio</title>
+    <link rel="stylesheet" href="../css/sytles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+<section id="main">
+    <h1 class="title">GUDDANTI RAKESH NAGA SAI</h1>
+    <h2>i'm rakesh a B.Tech student at vignan visakhapatnam </h2>
+    <h2>i can done multiple actions in one file </h2>
+
+    <a href="#About">
+        <button class="button">About</button>
+    </a>
+        
+            <a href="#skills">
+        <button class="button">Skills</button>
+    </a>
+    <a href="#projects">
+        <button class="button">Projects</button>
+    </a>
+    <a href="#contact">
+        <button class="button">Contact</button>
+    </a> 
+    </header>
+</body>
+</section>
+<section> 
+    <h1 style="color:#2196f3;">Rakesh naga sai(B.tech 2nd year)</h1>
+<img src="myphoto.jpg" alt="myphoto" width="190px" height="190px" >
+
+
+<h2>Hi, I’m GUDDANTI RAKESH NAGA SAI, a beginner web developer passionate about creating clean, responsive, and user-friendly websites. I’m currently building my skills in HTML, CSS, JavaScript, and modern web development practices through hands-on projects and continuous learning.
+
+I enjoy turning ideas into interactive web experiences and exploring new technologies to improve my skills. I’m eager to take on new challenges, learn from real-world projects, and grow as a developer.
+</h2>
+</section>
+<section id="skills" >
+            <h1 style="color:#2196f3" >MY SKILLS</h1>        
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>java</li>
+            <li>python</li>
+        </ol>
+</section>
+<section id="projects">
+
+<h1 style="color:#2196f3">My Projects</h1>
+
+<table border="1">
+    <tr>
+        <th>S.No</th>
+        <th>Project Name</th>
+        <th>Description</th>
+        <th>Technologies Used</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>My Portfolio</td>
+        <td>
+            A personal portfolio website that showcases my profile,
+            skills, projects, and contact information.
+        </td>
+        <td>HTML, CSS</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Smart Agri Flow (AgriSmart)</td>
+        <td>
+            An AI-powered smart irrigation system that monitors
+            soil moisture, weather conditions, and crop health to
+            help farmers improve productivity.
+        </td>
+        <td>HTML, CSS, JavaScript, IoT, AI</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Vennela AI</td>
+        <td>
+            An AI assistant that helps users with learning,
+            information retrieval, and daily productivity tasks.
+        </td>
+        <td>HTML, CSS, JavaScript, AI</td>
+    </tr>
+
+</table>
+
+</section>
+<section id="contact">
+        <br>
+        <h2 style="color:#2196f3"> Contact Me:</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="Contact form" onsubmit="submitForm(event)">
+        <p>Let's Connect </p>
+        <input type="hidden" name="access_key" value="ac7311c1-9191-4ff6-974d-41c784c7bf60">
+        <label for="name">Name:</label>
+        
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br>
+        <label for="Email:" >Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your Email Id">
+         <br>
+        <b>Choose your gender:</b>
+        <input type="radio" id="Male" name="Male" value="Male">
+        <label for"Male">Male</label>
+        <input type="radio" id="Female" name="Female" value="Female">
+        <label for"Female">Female</label>
+        <input type="radio" id="Others" name="others" value="others">
+        <label for"others">Other</label>
+        <br>
+        <b>Describe your interest:</b>
+        <input type="text"  id="interest" name="interest" placeholder="Describe your interest">
+        <br>
+
+        <button class="button" onclick="submitForm()">Submit</button>
+       <script>
+        function submitForm(){
+            let name=document.getElementById("name").value;
+            let email=document.getElementById("email").value;
+            let gender=document.querySelector('input[name="gender"]:checked').value;
+            let interest=document.getElementById("interest").value;
+            alert("Form submitted successfully!\nName: "+name+"\nEmail: "+email+"\nGender: "+gender+"\nInterest:"+interest);
+            console.log(name,email,gender,interest);
+            
+        }
+       </script>
+           
+        </form>
+        </section>
+        <button class="fixedbutton" onclick="topfunction()">TOP</button>
+        <script>
+      function topfunction(){
+        window.scrollTo({
+            top: 0,
+            behavior:"smooth"
+        });
+      }
+        </script>
+       
+        <footer>
+            <p>&copy;2026 MY PORTFOLIO.
+
+        </p>
+       
+        <div  class="social-icons">
+            <a href="https://www.instagram.com/rakeshv__08?stkn=MXByc3VsdHF1dmpzZA==" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/guddanti-rakesh-naga-sai-851697379?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/starakeshh-cmyk" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+        
+        </div>
+    </footer>
+          
+</body>
+</html>
